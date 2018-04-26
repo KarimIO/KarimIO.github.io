@@ -1,0 +1,100 @@
+body {
+    background: #f3f3f3;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    background: rgb(56, 68, 75);
+    padding: 2em;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: rgb(16, 131, 197);
+}
+
+h3 {
+    margin: 0;
+}
+
+section span {
+    display: block;
+    font-weight: bold;
+}
+
+section {
+    display: inline-block;
+    box-sizing: border-box;
+    width: calc(100% - 256px - 32px);
+    padding: 2em;
+    vertical-align: top;
+}
+
+section > div {
+    border-left: 2px solid #ccc;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+section i {
+    display: block;
+}
+
+section p {
+    margin: 1em 0;
+    color: #888;
+}
+
+section ul {
+    margin: 0;
+    color: #888;
+}
+
+aside h2 {
+    margin: 0;
+    padding: 16px;
+}
+
+aside {
+    display: inline-block;
+    width: 288px;
+    background: rgb(205, 210, 218);
+    height: 100%;
+    padding-top: 2em;
+}
+
+a {
+    color: rgb(16, 131, 197);
+}
+
+aside ul {
+    padding: 0;
+}
+
+aside li {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    color: #555;
+}
+
+aside li:nth-child(odd) {
+    background: rgba(0,0,0,0.08);
+}
+
+aside b {
+    display: block;
+    color: #222;
+    text-decoration: underline;
+}
