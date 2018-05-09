@@ -13,6 +13,12 @@ header {
     color: white;
 }
 
+header img {
+    float: right;
+    height: 32px;
+    padding: 8px;
+}
+
 h1 {
     margin: 0;
 }

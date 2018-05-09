@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: inline-block;
+    width: calc(100% - 64px);
+    height: 100%;
+    background: rgb(175, 187, 191);
+    color: white;
+    overflow: hidden;
+}
+
+header main {
+    position: relative;
+    vertical-align: top;
+    width: 300%;
+    height: 100%;
+}
+
+header section {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 4em;
+    width: 33.33%;
+    height: 100%;
+}
+
+section div {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 7.4em;
+    transform: translate(0, -50%);
+}
+
+header h1 {
+}
+
+header span {
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navlinks {
+    top: 1em;
+    right: 6em;
+    text-align: right;
+    position: absolute;
+    z-index: 1;
+}
+
+#navlinks a {
+    display: inline-block;
+    box-sizing: border-box;
+    margin:  0 1em;
+    padding: 0.4em 0.4em;
+    text-align: center;
+    border-bottom: 2px solid white;
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.5s ease opacity;
+}
+
+#navlinks a:hover {
+    opacity: 1;
+}
+
+#sidebar {
+    position: relative;
+    display: inline-block;
+    background: rgb(31, 34, 34);
+    width: 64px;
+    height: 100%;
+    vertical-align: top;
+    z-index: 1;
+}
+
+#sidebar li {
+    width: 64px;
+    height: 64px;
+    background-position: center center;
+    background-size: 48px;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.6;
+    transition: 0.5s ease opacity;
+    cursor: pointer;
+}
+
+#sidebar li:hover {
+    opacity: 1;
+}
+
+#sidebar li:nth-child(1) {
+    background-image: url(../images/home/photo.jpg);
+}
+
+#sidebar li:nth-child(2) {
+    background-image: url(../images/home/grindstone.png);
+}
+
+#sidebar li:nth-child(3) {
+    background-image: url(../images/home/oakjs.png);
+}
+
+#sidebar span {
+    position: absolute;
+    top: 50%;
+    background: rgb(25, 28, 28);
+    padding: 0.5em;
+    margin-top: -1.2em;
+    color: white;
+    border-radius: 0.6em;
+    font-size: 0.9em;
+    left:   -100%;
+    opacity: 0;
+    transition: 0.5s ease opacity, 0.4s ease left;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+#sidebar span::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgb(25, 28, 28) transparent transparent;
+}
+
+#sidebar li:hover span {        
+    left: 110%;
+    opacity: 1;
+}
+
+#me {
+    background: rgb(175, 187, 191);
+}
+
+#grindstone {
+    background: red;
+}
+
+#oakjs {
+    background: green;
+}
