@@ -13,10 +13,24 @@ header {
     color: white;
 }
 
-header img {
+header svg {
     float: right;
-    height: 32px;
-    padding: 8px;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    transition: 0.4s ease transform;
+}
+
+header svg:hover {
+    transform: scale(1.1);
+}
+
+header svg path {
+    transition: 0.3s ease fill;
+}
+
+header svg:hover path {
+    fill: rgb(16, 131, 197) !important;
 }
 
 h1 {
@@ -103,4 +117,11 @@ aside b {
     display: block;
     color: #222;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    aside, main, section {
+        width: 100%;
+        display: block;
+    }
 }

@@ -5,6 +5,7 @@ function switchPage(id) {
     els[selected].className = "";
     selected = id;
     els[id].className = "selected";
+    document.body.className = "section-"+(id+1);
     document.getElementsByTagName("main")[0].style = "left: -" + id * 100 + "%";
 }
 

@@ -1,3 +1,8 @@
+@font-face {
+    src: url(../fonts/Raleway-ExtraLight.ttf);
+    font-family: Raleway;
+}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -46,6 +51,7 @@ section div p {
 }
 
 h1, h2 {
+    font-family: Raleway;
     font-size: 2.4rem;
     padding:   0;
     margin:    0;
@@ -87,6 +93,7 @@ button:hover {
     width: 40rem;
     text-align: center;
     transform: translate(-50%, -50%);
+    max-width: 80%;
 }
 
 #oakjs .disp {
@@ -137,8 +144,8 @@ nav ul {
     border-bottom: 2px solid white;
     color: white;
     text-decoration: none;
-    opacity: 0.6;
-    transition: 0.5s ease opacity;
+    opacity: 0.4;
+    transition: 0.5s ease opacity, 0.5s ease color;
 }
 
 #navlinks a:hover {
@@ -152,7 +159,7 @@ nav ul {
     width: 80px;
     height: 100%;
     vertical-align: top;
-    z-index: 1;
+    z-index: 2;
     box-sizing: border-box;
 }
 
@@ -302,6 +309,160 @@ nav ul {
     font-size: 1.5vw;
 }
 
+.section-4 #navlinks a {
+    color: #333;
+    border-bottom-color: #333;
+}
+
+@media screen and (orientation: portrait) {
+
+    #sidebar li {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f2222+0,00aae8+7,28a0cc+100 */
+        background: #1f2222; /* Old browsers */
+        background: -moz-linear-gradient(top, #1f2222 33.33%, #00aae8 66.66%, #28a0cc 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #1f2222 33.33%,#00aae8 66.66%,#28a0cc 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #1f2222 33.33%,#00aae8 66.66%,#28a0cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f2222', endColorstr='#28a0cc',GradientType=2 ); /* IE6-9 */
+        
+        background-size: 80px 240px;
+        background-position: 0 80px;
+        background-repeat: no-repeat;
+    }
+
+    #sidebar li:hover {
+        background-position: 0 -80px;
+    }
+    
+    #sidebar li.selected {
+        background-position: 0 -160px;
+    }
+
+    #webdev .text {
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: none;
+    }
+
+    #me .disp {
+        background-size: 80vh;
+    }
+
+    #me .text {
+        box-sizing: border-box;
+        padding: 5%;
+    }
+
+    #me h1 {
+        font-size: 20vw;
+    }
+
+    #me span {
+        font-size: 4vw;
+    }
+
+    #sidebar {
+        width: 100%;
+        height: 80px;
+    }
+
+    #sidebar li {
+        display: inline-block;
+    }
+
+    header {
+        position: relative;
+        width: 100%;
+        height: calc(100% - 80px);
+    }
+
+    #navlinks {
+        text-align: center;
+        right: 0;
+        width: 100%;
+    }
+
+    #oakjs p {
+        display: none;
+    }
+
+    #oakjs .disp {
+        position: relative;
+        left: -20%;
+        top: 0;
+        right: 0;
+        transform: none;
+        max-width: none;
+        width: 140%;
+        margin: 2rem 0;
+        padding-bottom: calc(1.4 * 56%);
+        border-radius: 4px;
+    }
+
+    #oakjs .text {
+        position: relative;
+        height: auto;
+        transform: none;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    #sidebar span {
+        position: absolute;
+        top: -100%;
+        margin: 0;
+        transform: translate(-50%, 0); 
+        left:   50%;
+        transition: 0.5s ease opacity, 0.4s ease top;
+        z-index: 4;
+        width: 80px;
+        text-align: center;
+    }
+
+    #sidebar span::after {
+        content: " ";
+        position: absolute;
+        bottom: 100%;
+        margin-right: -5px;
+        margin-top: 0;
+        top: initial;
+        right: 50%;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent rgb(25, 28, 28) transparent;
+        transform: none;
+    }
+
+    #sidebar li:hover span {        
+        top: 110%;
+        left: 50%;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #sidebar {
+        height: 64px;
+        box-sizing: border-box;
+    }
+
+    #sidebar li {
+        width: 64px;
+        height: 64px;
+        padding: 8px;
+    }
+
+    #sidebar li:hover {
+        background-position: 0 -64px;
+    }
+    
+    #sidebar li.selected {
+        background-position: 0 -128px;
+    }
+}
+
 #grindstone {
     background: url(../images/home/grindstone_pic.png);
     background-size: cover;
@@ -377,9 +538,34 @@ nav ul {
     transform: translate3d(0, 0, 0.5vw) rotateX(-7deg);
 }
 
-@media screen and (max-width: 120vh) {
+@media screen and (orientation: portrait) {
     .isosheet {
-        display: none;
+        width: 160%;
         transform: none;
+        position: relative;
+        left: -30%;
+        top: 0;
+        display: block;
+        margin: 2rem 0;
+    }
+
+    .isosheet > div {
+        display: block;
+        right: 0;
+        top: 0;
+        width: 100%;
+        transform: none;
+    }
+
+    .isosheet > div > div {
+        display: inline-block;
+        right: 0;
+        top: 0;
+        width: 46%;
+        margin: 2%;
+        transform: none;
+        padding: 0;
+        padding-bottom: calc(0.5 * 44.97%);
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
     }
 }
