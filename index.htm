@@ -3,36 +3,69 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>KarimIO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
-    <script src="script/main.js"></script>
 </head>
 <body>
     <nav id="sidebar">
         <ul>
-            <li><span>Me</span></li>
-            <li><span>Grindstone</span></li>
-            <li><span>Oak.js</span></li>
+            <li class='selected'><div></div><span>Me</span></li>
+            <li><div></div><span>Grindstone</span></li>
+            <li><div></div><span>Oak.js</span></li>
+            <li><div></div><span>Web Design</span></li>
         </ul>
     </nav><header>
         <nav id="navlinks">
+            <a href='blog.htm'>Blog</a>
             <a href='resume.htm'>Resume</a>
         </nav>
-        <main>
+        <main style='left: -0%;'>
             <section id="me">
+                <div class='disp'></div></div>
                 <div>
                     <h1>Karim Abdel Hamid</h1>
-                    <span>Full Stack Programmer * UX Designer</span>
+                    <span>Full Stack Programmer &middot; UX Designer &middot; Graphics Programmer</span>
                 </div>
             </section><section id="grindstone">
-                <h2>Grindstone</h2>
-                <span>Full Stack Programmer * UX Designer</span>
+                <div>
+                    <h2>Grindstone</h2>
+                    <span>A new kind of Game Engine</span>
+                    <a href="grindstone.htm"><button>Learn More!</button></a>
+                </div>
             </section><section id="oakjs">
-                <h2>Oak.js</h2>
-                <span>Full Stack Programmer * UX Designer</span>
+                <div class='disp'><div class='logo'></div></div>
+                <div>
+                    <h2>Oak.js</h2>
+                    <span>An Online Instruction Set Simulator</span>
+                    <p>
+                        Oak.js is an online Instruction Set Simulator, supporting assembly languages including MIPS and RISC-V. It is also designed as an Integrated Development Environment (IDE) for such languages, with features including theming, hotkeys, tabbed editing, syntax hilighting, number conversion, step-by-step debugging, register tracking, and more.
+                    </p>
+                    <a href="https://donn.github.io/Oak.js/"><button>Try It Out!</button></a>
+                </div>
+            </section><section id="webdev">
+                <div class="isosheet">
+                        <div>
+                            <div style="background-image: url(images/home/web_screen1.png);"></div>
+                            <div style="background-image: url(images/home/web_screen2.png);"></div>
+                            <div style="background-image: url(images/home/web_screen3.png);"></div>
+                        </div><div>
+                            <div style="background-image: url(images/home/web_screen4.png);"></div>
+                            <div style="background-image: url(images/home/web_screen5.png);"></div>
+                            <div style="background-image: url(images/home/web_screen6.png);"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Web Design</h2>
+                    <span>Responsive &middot; Functional &middot; Beautiful</span>
+                    <p>
+                        I've developed countless websites over the course of a decade, using HTML5, CSS, Javascript, Jquery, Node.js, PHP, and MySQL.
+                    </p>
+                </div>
             </section>
         </main>
     </header>
+    <script src="script/main.js"></script>
 </body>
 </html>
