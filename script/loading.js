@@ -5,6 +5,4 @@ function pageLoaded() {
     }, 2000);
 }
 
-(function() {
-    pageLoaded();
-})();
+addEventListener("load", pageLoaded);

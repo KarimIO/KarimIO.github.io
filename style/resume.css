@@ -1,3 +1,8 @@
+@font-face {
+    src: url(../fonts/Raleway-ExtraLight.ttf);
+    font-family: Raleway;
+}
+
 body {
     background: #f3f3f3;
     margin: 0;
@@ -34,14 +39,17 @@ header svg:hover path {
 }
 
 h1 {
+    font-family: Raleway, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
 
 h2 {
+    font-family: Raleway, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(16, 131, 197);
 }
 
 h3 {
+    font-family: Raleway, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
     margin: 0;
 }
 
@@ -95,6 +103,15 @@ aside {
 
 a {
     color: rgb(16, 131, 197);
+    transition: 0.5s ease color;
+}
+
+h1 a:hover {
+    color: hsl(202, 85%, 80%);
+}
+
+a:hover {
+    color: hsl(202, 85%, 20%);
 }
 
 aside ul {
