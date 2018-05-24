@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
 <head>
+    <script type="text/javascript" src="script/nojs.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/loading.css" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>KarimIO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/nav.css" />
 </head>
 <body>
+    <div id="loading">
+        <div>
+            <h1>
+                Welcome to Karim's Blog
+            </h1>
+            <span>Loading...</span>
+        </div>
+    </div>
     <nav id="sidebar">
         <ul>
             <li class='selected'>
@@ -38,7 +49,7 @@
                 </div>
             </section><section id="grindstone">
                 <div>
-                    <h2>Grindstone</h2>
+                    <img src="images/grindstone.svg" />
                     <span>A new kind of Game Engine</span>
                     <a href="grindstone.htm"><button>Learn More!</button></a>
                 </div>
@@ -55,12 +66,12 @@
             </section><section id="webdev">
                 <div class="isosheet">
                         <div>
-                            <div style="background-image: url(images/home/web_screen1.png);">
+                            <div style="background-image: url(images/home/web_screen1.jpg);">
                             </div><div style="background-image: url(images/home/web_screen2.png);"></div>
                         </div>
                         <div>
                             <div style="background-image: url(images/home/web_screen3.png);">
-                            </div><div style="background-image: url(images/home/web_screen4.png);"></div>
+                            </div><div style="background-image: url(images/home/web_screen4.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -75,5 +86,6 @@
         </main>
     </header>
     <script src="script/main.js"></script>
+    <script type="text/javascript" src="script/loading.js"></script>
 </body>
 </html>

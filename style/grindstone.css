@@ -1,0 +1,54 @@
+html, body {
+    margin:  0;
+    padding: 0;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+}
+
+main {
+    position: relative;
+    width: calc(100vw - 64px);
+    margin-left: 64px;
+    transition: 0.5s ease margin-top;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background: url(../images/home/grindstone_pic.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header img {
+    position: absolute;
+    display: block;
+    width: 60%;
+    margin: 2% 0;
+    left: 20%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+@media screen and (orientation: portrait) {
+    main {
+        margin-left: 0;
+        margin-top: 80px;
+        width: 100%;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 360px) {
+    main {
+        margin-top: 64px;
+    }
+    
+    #navlinks {
+        font-size: 0.9rem;
+    }
+}
