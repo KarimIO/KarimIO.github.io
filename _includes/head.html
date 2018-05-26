@@ -1,0 +1,34 @@
+<head>
+  <!--<script type="text/javascript" src="script/nojs.js"></script>-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/nav.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <meta name="author" content="Karim Abdel Hamid">
+  <meta name="keywords" content="blog, personal, website, programming, game, developer, programmer, c++, code, karim, abdel, hamid">
+  
+  <meta property="og:title" content="KarimIO's Personal Site" />
+  <meta property="og:site_name" content="KarimIO's Personal Site">
+  <meta property="og:image" content="https://karimio.github.io/images/preview.png" />
+  <meta property="og:description" content="Karim Abdel Hamid's personal website. Karim is a Full-Stack Web Developer, Game Developer, UX Designer, and general Software Programmer who loves C++, Guitar, and Dogs." />
+  <meta property="og:url" content="https://karimio.github.io" />
+  <meta property="og:type" content="website" />
+
+  <meta itemprop="name" content="KarimIO's Personal Site">
+  <meta itemprop="description" content="Karim Abdel Hamid's personal website. Karim is a Full-Stack Web Developer, Game Developer, UX Designer, and general Software Programmer who loves C++, Guitar, and Dogs.">
+  <meta itemprop="image" content="https://karimio.github.io/images/preview.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://karimio.github.io">
+  <meta name="twitter:title" content="KarimIO's Personal Site">
+  <meta name="twitter:description" content="Karim Abdel Hamid's personal website. Karim is a Full-Stack Web Developer, Game Developer, UX Designer, and general Software Programmer who loves C++, Guitar, and Dogs.">
+  <meta name="twitter:image" content="https://karimio.github.io/images/preview.png">
+</head>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karim Abdel Hamid&#39;s Blog</title>
+    <description>Welcome to Karim&#39;s Blog! Here, we&#39;ll take about Computer Graphics, Game Engines, Web Design, and general Computer Science, as well as any other thoughts I might have.
+</description>
+    <link>https://karimio.github.io/</link>
+    <atom:link href="https://karimio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 May 2018 01:15:13 +0200</pubDate>
+    <lastBuildDate>Sun, 27 May 2018 01:15:13 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Welcome to my Blog!</title>
+        <description>&lt;p&gt;Hey there, and welcome to my first blog post! I’m Karim Abdel Hamid, a Computer Engineering student at the American Univerity in Cairo. I’m currently working on my game engine, &lt;a href=&quot;/grindstone.htm&quot;&gt;Grindstone&lt;/a&gt;. I’m also co-developing &lt;a href=&quot;https://donn.github.io/Oak.js/&quot;&gt;Oak.js&lt;/a&gt; an web-based assembler, disassembler and simulator for RISC-V and MIPS.&lt;/p&gt;
+
+&lt;p&gt;In this blog, I plan to talk about:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Grindstone’s progress updates, including feature highlights&lt;/li&gt;
+  &lt;li&gt;Oak.js progress updates&lt;/li&gt;
+  &lt;li&gt;Various other projects&lt;/li&gt;
+  &lt;li&gt;Computer Graphics Tutorials&lt;/li&gt;
+  &lt;li&gt;Game Engine Tutorials&lt;/li&gt;
+  &lt;li&gt;Whatever else is on my mind&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I know not everything is interested in everything so you can search by category.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 May 2018 16:37:44 +0200</pubDate>
+        <link>https://karimio.github.io/misc/2018/05/26/welcome-to-my-blog.html</link>
+        <guid isPermaLink="true">https://karimio.github.io/misc/2018/05/26/welcome-to-my-blog.html</guid>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+  </channel>
+</rss>

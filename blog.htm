@@ -1,17 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Karim's Blog: Coming Soon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style/missing.css" />
-</head>
-<body>
-    <div>
-        <h1>Blog</h1>
-        <h2>Coming Soon</h2>
-        <a href="index.htm">Back</a>
-    </div>
-</body>
-</html>
+---
+layout: default
+---
+<header class="post-header blog">
+  <nav id="navlinks">
+    <a href="/">Home</a>
+    <a href="/blog.htm">Blog</a>
+    <a href="/resume.htm">Resume</a>
+  </nav>
+  <div class="post-container">
+    <h1 class="post-title" itemprop="name headline">Blog Posts</h1>
+    <p class="post-meta">{{ site.description }}</p>
+  </div>
+
+  <a class="arrow_bob" href="#article-list">&raquo;</a>
+</header>
+
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <div>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <div>
+            {{ post.excerpt }}
+          </div><div class='catlist'>
+            Categories:
+              {% for category in post.categories %}
+                <a href="">{{ category }}</a>
+              {% endfor %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
