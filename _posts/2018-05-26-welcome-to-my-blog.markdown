@@ -24,6 +24,6 @@ In this blog, I plan to talk about:
  * Game Engine Tutorials
  * Whatever else is on my mind
 
-I know not everything is interested in everything so you can search by category, but hopefully there's enough to interest everyone!
+I know not everyone will be interested in everything so you can search by category, but hopefully there's enough to interest everyone!
 
 I hope you enjoy whatever is to come! Let the adventure begin! ALLONS-Y!
