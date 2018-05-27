@@ -25,7 +25,7 @@ layout: default
           </h2>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <div>
-            {{ post.excerpt }}
+            {% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}
           </div><div class='catlist'>
             Categories:
               {% for category in post.categories %}

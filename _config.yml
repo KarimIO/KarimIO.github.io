@@ -17,3 +17,4 @@ github_username:  karimio
 
 # Build settings
 markdown: kramdown
+preview: /images/home/photoalt.jpg

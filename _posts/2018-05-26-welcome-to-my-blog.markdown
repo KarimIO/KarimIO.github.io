@@ -4,6 +4,7 @@ author: "Karim Abdel Hamid"
 image: "/images/posts/1.png"
 title:  "Welcome to my Blog!"
 date:   2018-05-26 16:37:44 +0200
+preview: "/images/posts/1_thumb.png"
 categories: misc
 ---
 Hey there, and welcome to my first blog post! I'm Karim Abdel Hamid, a Computer Engineering student at the American Univerity in Cairo. I'm currently working on my game engine, [Grindstone](/grindstone.htm). I'm also co-developing [Oak.js](https://donn.github.io/Oak.js/) an web-based assembler, disassembler and simulator for RISC-V and MIPS. 
