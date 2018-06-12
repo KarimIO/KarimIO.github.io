@@ -9,7 +9,7 @@
 title: Karim Abdel Hamid's Blog
 email: karimah@aucegypt.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Karim's Blog! Here, we'll take about Computer Graphics, Game Engines, Web Design, and general Computer Science, as well as any other thoughts I might have.
+  Welcome to Karim's Blog! Here, we'll talk about Computer Graphics, Game Engines, Web Design, and general Computer Science, as well as any other thoughts I might have.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://karimio.github.io" # the base hostname & protocol for your site
 twitter_username: karim_abdel_h
