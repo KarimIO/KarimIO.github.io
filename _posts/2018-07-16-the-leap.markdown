@@ -8,8 +8,6 @@ preview: "/images/posts/2_thumb.jpg"
 categories: stories
 ---
 
-# Preface
-
 Hey there! Glad you're still here! I decided to post a short story, hope you enjoy! Keep in mind it has limited use of strong language.
 
 Thank you to [Yasmin Helmy](https://someonecalledyelmy.wordpress.com/) for the challenge:
