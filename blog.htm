@@ -20,6 +20,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <div>
+          <img src="{{ post.preview }}" />
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
