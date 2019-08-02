@@ -8,7 +8,11 @@ preview: "/images/posts/4_thumb.jpg"
 categories: stories
 ---
 
+**Synopsis:** A woman stands in her apartment anxiously, nervous of what's to come.
+
 *Content Warning:* Domestic Abuse
+
+---
 
 It was a hot Monday evening, with a cool breeze breaking up the warmth. Dina sat on a couch by the window, stiff, with her arms to her sides, clenching the fabric of the couch. She’d been sitting there since she got home from work half an hour ago, now staring intently at the clock in her living room. She had two minutes. She broke her gaze, and began to look around the room, trying to occupy herself in her last few moments. Dina turned to a vase on her windowsill, noticing she’d have to change the water of the flower that occupied it. She picked it up carefully, delicately, and took it to her kitchen. After she dumped the water in the vase, she started filling it again while she gingerly checked the rose, admiring the soft crimson petals, which wrapped around themselves gracefully. She raised it up to her nose and smelled it, admiring the refreshing aroma. She began to smile to herself.
 

@@ -8,6 +8,8 @@ preview: "/images/posts/5_thumb.jpg"
 categories: stories
 ---
 
+**Synopsis:** A student battles with her social anxiety. 
+
 *Content Warning:* Depression and Anxiety
 
 ---
