@@ -14,8 +14,6 @@ categories: stories
 
 ---
 
-# The Leap
-
 Click clack. The sounds of fingers hitting keys. Tick tock. The noise of gears
 twisting and churning at the center of a nearby clock. Bla bla. The utterances
 of people speaking all around me. I only started working for this company half a

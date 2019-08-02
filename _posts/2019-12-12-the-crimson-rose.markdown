@@ -10,7 +10,7 @@ categories: stories
 
 **Synopsis:** A woman stands in her apartment anxiously, nervous of what's to come.
 
-*Content Warning:* Domestic Abuse
+**Content Warning:** Domestic Abuse
 
 ---
 
@@ -72,8 +72,7 @@ Dina let out a sigh. She began shaking uncontrollably, knowing this was just the
 
 ---
 
-*Author's note:*
-I wrote this story to talk about domestic abuse, a huge problem not only in Egypt but all over the world. I wanted to write specifically about domestic abuse when you love your partner though. This happens constantly and is extremely dangerous because victims tend to rationalize their abusers' violence. If you or anyone you know is in a potentially violent relationship please seek help.
+**Author's note:** I wrote this story to talk about domestic abuse, a huge problem not only in Egypt but all over the world. I wanted to write specifically about domestic abuse when you love your partner though. This happens constantly and is extremely dangerous because victims tend to rationalize their abusers' violence. If you or anyone you know is in a potentially violent relationship please seek help.
 
 I tried to ask many women for their perspectives on the story before I published it to avoid portraying the situation incorrectly or potentially hurting someone. Thank you to everyone who reviewed it, especially to Raneem Mangoud and Laila El Refaie, who gave a lot editorial advice.
 
