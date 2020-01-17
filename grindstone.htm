@@ -3,15 +3,57 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Grindstone Engine</title>
+    <title>Grindstone Game Engine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/missing.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/grindstone.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/nav.css" />
 </head>
 <body>
-    <div>
-        <h1>Grindstone</h1>
-        <h2>Coming Soon! We have a lot of features to showcase, so hang on tight!</h2>
-        <a href="/">Back</a>
-    </div>
+    <nav id="navlinks">
+        <a href='/'>Home</a>
+        <a href='blog.htm'>Blog</a>
+        <a href='resume.htm'>Resume</a>
+    </nav>
+    <main>
+        <h1><img src="images/grindstone.svg" alt="Grindstone Game Engine" /></h1>
+        <p>In-progress game engine developed by Karim Abdel Hamid. Progress started in May 2014, and has been reworked multiple times as I've learned more.</p>
+        
+        <h2>System Features</h2>
+        <ul>
+            <li>Extensible Cross-Platform system with support for Linux, Windows, with plans to support Mac, Mobile, and PS/Xbox</li>
+            <li>Multiple rendering APIs supported with Graphics abstraction layer. Currently OpenGL and Vulkan</li>
+            <li>Flexible Entity Component System allows for better extensibility, performance, and multithreading</li>
+            <li>Code with either the C++ native programming or our C# Scripting system</li>
+            <li>Reflection system exposes classes to the editor, save system, and networking</li>
+            <li>Integration with bullet physics</li>
+            <li>Frustum culling</li>
+            <li>Quick scene loading</li>
+            <li>Logging and Profiling systems</li>
+        </ul>
+        <img src="images/grindstone/2.png" />
+
+        <h2>Rendering</h2>
+        <ul>
+            <li>Material and shader system allow for developers to easily create new materials in a cross platform way that hooks up to native systems</li>
+            <li>Viewport and camera systems allow for various different types of cameras to show the world both in game and in many times in editor</li>
+            <li>Deferred rendering to increase rendering performance</li>
+            <li>Post processing pipeline that includes Tonemapping, Bloom, SSAO, Automatic Exposure Adjustment, Color Grading, and more</li>
+            <li>Shadow mapping</li>
+        </ul>
+
+        <img src="images/grindstone/1.png" />
+
+        <h2>Editor</h2>
+        <ul>
+            <li>Currently in the process of revamping the editor to be its own executable</li>
+            <li>Immediate-mode GUI for level editor, which includes an asset browser, component inspector, scene graph viewer, and multiple viewports</li>
+            <li>Some procedural editing features (perlin noise terrain, hydraulic weathering of terrain for improved realism)</li>
+            <li>Cubemap building</li>
+            <li>Image, Material, and Model conversion to compressed formats, both native and otherwise</li>
+            <li>Work on adding more tools such as material editor</li>
+        </ul>
+
+        <p>Grindstone will be released for free for those developing free games, and licensable for others, at an undecided date.</p>
+    </main>
 </body>
 </html>
