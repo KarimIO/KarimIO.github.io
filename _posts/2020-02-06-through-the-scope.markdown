@@ -30,7 +30,7 @@ The Soldier helped Yusuf up by the hand, and swiveled to pushed him out of the d
 
 He and Yusuf took shifts watching an old road that passed by the base, linking Kurdish Syria and Turkey. The road had barely been traveled for a month. Cracks ran throughout the asphalt, and it was covered with sand from lack of use. He remembered when he was first deployed, overseeing tanks and armored personnel carriers driving into Kurdistan.
 
-After a few hours of staring through the scope, his muscles grew stiff, and so the Soldier rested his eyes and stretched his neck. As he opened his eyes again, he soon found himself gazing at his dozens of tattoos on his arms, he remembered when he got each of them. Tattoos were very rare in Turkey, but he had started getting them at 16, sneaking out of his house to get them with his small sum of savings. His favorite was a cracked skull, with thorny vines twirling around them. As he grew older the quality of the tattoos got better. Most of the tattoos covered swelling lines. There were more lines on his back, where his dad’s belt met his skin. Some were lines on his wrist. Those he claimed as his own. The Soldier’s body was a gallery of pain that he had turned into beauty with his little inked masterpieces.
+After a few hours of staring through the scope, his muscles grew stiff, and so the Soldier rested his eyes and stretched his neck. As he opened his eyes again, he soon found himself gazing at his dozens of tattoos on his arms, he remembered when he got each of them. Tattoos were very rare in Turkey, but he had started getting them at 16, sneaking out of his house to get them with his small sum of savings. His favorite was a cracked skull, with thorny vines twirling around it. As he grew older the quality of the tattoos got better. Most of the tattoos covered swelling lines. There were more lines on his back, where his dad’s belt met his skin. Some were lines on his wrist. Those he claimed as his own. The Soldier’s body was a gallery of pain that he had turned into beauty with his little inked masterpieces.
 
 Then he noticed that tattoo with his mom’s name. Cliché, maybe, but it was important to him nonetheless. She was always there for him. She was there when he won his football matches. She was there for him when he shed his tears. When she wasn’t feigning ignorance of how her husband was beating her son, she iced his wounds and made him feel better.  And now she was there for him on his arm.
 
@@ -64,7 +64,7 @@ The Soldier reached for a cigarette and stared at the bodies through his scope. 
 
 ---
 
-**Author's note:** Special thanks to Arwa Hezzah and Laila Ghoneim who helped me with editing the article. This story is a work of fiction, but is inspired by the carnage that comes to civilians with every war, not just that between Turkey and Kurdish Syria.
+**Author's note:** Special thanks to Arwa Hezzah and Laila Ghoneim who helped me with editing the article, and Ingie Gohar for the picture! This story is a work of fiction, but is inspired by the carnage that comes to civilians with every war, not just that between Turkey and Kurdish Syria.
 
 ---
 
