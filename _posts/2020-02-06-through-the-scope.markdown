@@ -8,7 +8,7 @@ preview: "/images/posts/7_thumb.jpg"
 categories: stories
 ---
 
-**Synopsis:** A sniper gets bored after a long day in the sun.
+**Synopsis:** A soldier gets bored after a long day in the sun.
 
 **Content Warning:** Violence
 
